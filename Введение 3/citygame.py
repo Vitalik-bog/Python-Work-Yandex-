@@ -1,0 +1,6 @@
+city_1 = input()
+city_2 = input()
+if city_1[-1] == city_2[0]:
+    print('ВЕРНО')
+else:
+    print('НЕВЕРНО')
