@@ -1,0 +1,1 @@
+print(sum(list(map(lambda z: z**2, list(filter(lambda x: x % 9 == 0, range(10,100)))))))

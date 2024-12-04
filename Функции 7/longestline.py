@@ -1,0 +1,5 @@
+coords_begin = map(lambda x: int(x), input().split())
+coords_end = map(lambda x: int(x), input().split())
+coords = list(zip(coords_begin, coords_end))
+lens = list(map(lambda pair: pair[1]-pair[0], coords))
+print(*coords[lens.index(max(lens))])
